@@ -1,0 +1,34 @@
+npm run dev -> to start the project on localhost
+
+Reusable Building Blocks
+ - Create small building blocks & compose the UI from them, if needed: Resuse a building block in different parts of the UI 
+ (e.g., a resuable button)
+
+Related code lives together
+ - related HTML & JS (and possibly CSS) code is stored together, s ince JS influences the output, storing JS + HTML together makes sense
+
+Sepration of Concerns
+ - Different components hand;e different data & logic, vastly simplifies the process of working on complex apps
+
+
+
+COMPONENT FUNCTIONS MUST FOLLOW TWO RULES
+
+Name starts with Uppercase Character
+ - The function name must start with an uppercase character. Multi-word names should be written in PascalCase (e.g., "MyHeader")
+ it's recommended to pick a name that describes the UI building block (e.g., "Header" or "MyHeader")
+
+
+Returns "Renderable" Content
+ - The function must return a value that can be rendered ("Displayed on screen") by React. In most cases: return JSX also allowed: string,
+ number, boolean, null, array of allowed values.
+
+
+BUILT IN COMPONENTS VS CUSTOM COMPONENTS
+Built in Components
+    - Name starts with a lowercase character. Only valid, officially defined HTML elements are allowed. 
+    are rendered as DOM nodes by react (i.e displayed on the screen).
+
+Custom Components
+    - Name starts with uppercase character. Defined by you, "wraps" built-in or other custom components.
+    React "traverses" the components tree untill it has only built-in components left.
