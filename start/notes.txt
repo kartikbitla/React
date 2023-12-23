@@ -1,3 +1,39 @@
 What is react?
  - The library for web abd native user interfaces, react is a library for building user inferfaces, 
  A javascript library for building user inferfaces 
+
+ Using just javascript typically isn't a great option
+    - writing complex javascript code quickly becomes cumbersome
+    - complex javacript code quickly becomes error-prone
+    - complex javacript code often is hard to maintain or edit
+    - react offers a simpler mental model
+
+
+    React - Declarative
+      - Define the goal, not the steps
+      
+      
+      let content;
+      if(user.isLoggedIn){
+         content = <button>Continue</button>
+      }else{
+         content = <button>Log In</button>
+      }
+
+      return content;
+
+
+
+
+   JS - Imperative
+      - Define the steps, not the goal
+      let btn = document.querySelector('button);
+      if(user.isLoggedIn){
+         button.textContent = 'Continue;
+      }else{
+         button.textContent = 'Log In';
+      }
+
+      document.body.append(btn);
+
+
