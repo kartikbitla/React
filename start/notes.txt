@@ -2,6 +2,29 @@ What is react?
  - The library for web abd native user interfaces, react is a library for building user inferfaces, 
  A javascript library for building user inferfaces 
 
+ 1. React is js library.
+ 2. The main focuse is building UI as fast as possible.
+ 3. So this is Used to Single Page Application.
+ 4. Means Complete Website in Single Page.  
+
+
+ Why learn React
+ 1. Maintained by Facebook so it will Long Term Player in the Market.
+ 2. Hight Demand due to fast speed.
+ 3. Large Community for your support.
+ 4. Mobile app development with React-native
+
+
+ History 
+ 1. Maintained by facebook. 
+ 2. First release on 29 May 2013.
+ 3. Apps with Reach js:
+      1. Netflix
+      2. Whatsapp web
+      3. Instgram
+      4. Airbnb
+
+
  Using just javascript typically isn't a great option
     - writing complex javascript code quickly becomes cumbersome
     - complex javacript code quickly becomes error-prone
