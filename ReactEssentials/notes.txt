@@ -32,3 +32,12 @@ Built in Components
 Custom Components
     - Name starts with uppercase character. Defined by you, "wraps" built-in or other custom components.
     React "traverses" the components tree untill it has only built-in components left.
+
+
+Component Type
+1. Functional Component
+2. Class Component
+3. HOC (High Order Component)
+4. Pure Component
+5. Controlled Component 
+6. Uncontrolled Component
