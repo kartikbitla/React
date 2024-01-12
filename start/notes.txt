@@ -60,3 +60,12 @@ What is react?
       document.body.append(btn);
 
 
+
+Name Starts with uppercase character
+ - The function name must start with an uppercase character. Multi-word names should be written in PascalCase (e.g., "MyHeader")
+   It's recommended to pick a name that describes the UI building block (e.g., "Header" or "MyHeader")
+
+
+Returns "Rederable" content
+ - The function must return a value that can ne rendered ("displayed on screen") by React.
+   In most cases: return JSX also allowed: string, number, boolean, null, array of allowed values.
