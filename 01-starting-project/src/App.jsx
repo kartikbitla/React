@@ -27,6 +27,7 @@ function App() {
           </ul>
         </section>
         <section id="examples">
+          
             <h2>Examples</h2>
             <menu>
               <TabButton isSelected={selectedTopic === "components"} onSelect={() => handleSelect("components")}>Components</TabButton>
