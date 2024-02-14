@@ -47,7 +47,6 @@ What is react?
 
 
 
-
    JS - Imperative
       - Define the steps, not the goal
       let btn = document.querySelector('button);
