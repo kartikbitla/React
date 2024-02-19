@@ -1,7 +1,6 @@
 JAVASCRIPT REFRESHER
 
 javascript can be executed in many environments
-
 1. In the Browser - Javascript code can be included in any website. The code then executes inside the browser (i.e on the machine of the website visitor).
 2. On any Computer - Thanks to node.js or Deno javascript code can be executed outside of the browser too. The code then executes directly on the machine.
 3. On mobile Devices - With extra technologies like capacitor or react native, you can build mobile apps based on javacript. The code then executes on the mobile device.
