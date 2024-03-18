@@ -7,8 +7,6 @@ What is react?
  3. So this is Used to Single Page Application.
  4. Means Complete Website in Single Page.  
 
-
-
  Why learn React
  1. Maintained by Facebook so it will Long Term Player in the Market.
  2. Hight Demand due to fast speed.
