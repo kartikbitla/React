@@ -5,7 +5,6 @@ javascript can be executed in many environments
 2. On any Computer - Thanks to node.js or Deno javascript code can be executed outside of the browser too. The code then executes directly on the machine.
 3. On mobile Devices - With extra technologies like capacitor or react native, you can build mobile apps based on javacript. The code then executes on the mobile device.
 
-
 <script src='index.js' defer></script>
     - Here the defer keyword wroks when we are importing our js file in the head tag, it will let the html code run first and if anything
     is depended on the html code it will be managed by that. Suppose some li tags are has a attachment with the js code it will directly
